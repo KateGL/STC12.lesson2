@@ -61,7 +61,7 @@ public class MathBox {
         }
     }
 
-    public double divider2(Integer a, Integer b) throws Exception{
+    public double divider2(Integer a, Integer b) throws MathException{
         try{
             return (double)a/b;
         } catch(Exception e){
